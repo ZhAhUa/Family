@@ -11,4 +11,11 @@
         android:layout_height="wrap_content"
         android:text="测试主页"
         />
+    
+        <TextView 
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是显示主页内容部分"
+        />
 </LinearLayout>
