@@ -10,5 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="便签页面"
+        android:textSize="14sp"
         />
 </LinearLayout>
