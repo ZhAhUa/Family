@@ -58,7 +58,10 @@ public final class R {
         public static final int outcostedit=0x7f030009;
         public static final int outcostlist=0x7f03000a;
         public static final int self_main=0x7f03000b;
-        public static final int usersetinfo=0x7f03000c;
+        public static final int total_inlist=0x7f03000c;
+        public static final int total_outlist=0x7f03000d;
+        public static final int totaldata=0x7f03000e;
+        public static final int usersetinfo=0x7f03000f;
     }
     public static final class menu {
         public static final int main=0x7f080000;
