@@ -36,7 +36,9 @@ public final class R {
     public static final class id {
         public static final int Btn_1=0x7f090002;
         public static final int Btn_2=0x7f090003;
-        public static final int action_settings=0x7f090009;
+        public static final int Total_In=0x7f090009;
+        public static final int Total_Out=0x7f09000a;
+        public static final int action_settings=0x7f09000b;
         public static final int main_Flag=0x7f090007;
         public static final int main_Home=0x7f090005;
         public static final int main_Message=0x7f090006;
