@@ -32,6 +32,7 @@ public final class R {
         public static final int ic_house=0x7f020003;
         public static final int ic_launcher=0x7f020004;
         public static final int ic_search=0x7f020005;
+        public static final int menu2=0x7f020006;
     }
     public static final class id {
         public static final int Btn_1=0x7f090002;
