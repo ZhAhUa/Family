@@ -33,26 +33,37 @@ public final class R {
         public static final int ic_launcher=0x7f020004;
         public static final int ic_search=0x7f020005;
         public static final int menu2=0x7f020006;
+        public static final int mike=0x7f020007;
+        public static final int sa=0x7f020008;
+        public static final int vv1=0x7f020009;
+        public static final int vv2=0x7f02000a;
+        public static final int vv3=0x7f02000b;
+        public static final int vv4=0x7f02000c;
+        public static final int xzsr=0x7f02000d;
+        public static final int xzzc=0x7f02000e;
     }
     public static final class id {
         public static final int Btn_1=0x7f090002;
         public static final int Btn_2=0x7f090003;
-        public static final int Total_In=0x7f090016;
-        public static final int Total_Out=0x7f090017;
-        public static final int action_settings=0x7f090018;
+        public static final int Total_In=0x7f090019;
+        public static final int Total_Out=0x7f09001a;
+        public static final int action_settings=0x7f09001b;
         public static final int btn=0x7f09000f;
         public static final int btna=0x7f090010;
+        public static final int image=0x7f090016;
         public static final int imageMain=0x7f090004;
         public static final int itextview=0x7f090005;
         public static final int itextviewb=0x7f090007;
         public static final int itextviewc=0x7f090009;
         public static final int itextviewd=0x7f09000b;
         public static final int itextviewf=0x7f09000d;
+        public static final int listview=0x7f090018;
         public static final int main_Flag=0x7f090014;
         public static final int main_Home=0x7f090012;
         public static final int main_Message=0x7f090013;
         public static final int main_Self=0x7f090015;
         public static final int main_tab_group=0x7f090011;
+        public static final int title=0x7f090017;
         public static final int txt1=0x7f090000;
         public static final int txt2=0x7f090001;
         public static final int txtDepict=0x7f09000e;
@@ -73,11 +84,12 @@ public final class R {
         public static final int message_main=0x7f030008;
         public static final int outcostedit=0x7f030009;
         public static final int outcostlist=0x7f03000a;
-        public static final int self_main=0x7f03000b;
-        public static final int total_inlist=0x7f03000c;
-        public static final int total_outlist=0x7f03000d;
-        public static final int totaldata=0x7f03000e;
-        public static final int usersetinfo=0x7f03000f;
+        public static final int self_items=0x7f03000b;
+        public static final int self_main=0x7f03000c;
+        public static final int total_inlist=0x7f03000d;
+        public static final int total_outlist=0x7f03000e;
+        public static final int totaldata=0x7f03000f;
+        public static final int usersetinfo=0x7f030010;
     }
     public static final class menu {
         public static final int main=0x7f080000;
