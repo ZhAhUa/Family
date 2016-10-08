@@ -53,15 +53,15 @@ public final class R {
     }
     public static final class id {
         public static final int ID=0x7f090020;
-        public static final int Total_In=0x7f090035;
-        public static final int Total_Out=0x7f090036;
-        public static final int action_settings=0x7f090037;
+        public static final int Total_In=0x7f090037;
+        public static final int Total_Out=0x7f090038;
+        public static final int action_settings=0x7f090039;
         public static final int btn=0x7f09001e;
-        public static final int btnCancel=0x7f090030;
-        public static final int btnSave=0x7f09002f;
+        public static final int btnCancel=0x7f090032;
+        public static final int btnSave=0x7f090031;
         public static final int btna=0x7f09001f;
         public static final int button=0x7f090025;
-        public static final int image=0x7f090031;
+        public static final int image=0x7f090033;
         public static final int imageMain=0x7f090000;
         public static final int imagegroup=0x7f09000d;
         public static final int imagegroupa=0x7f090011;
@@ -70,14 +70,15 @@ public final class R {
         public static final int itextviewc=0x7f090018;
         public static final int itextviewd=0x7f09001a;
         public static final int itextviewf=0x7f09001c;
-        public static final int iv_circle_header=0x7f090033;
-        public static final int listview=0x7f090034;
+        public static final int iv_circle_header=0x7f090035;
+        public static final int listview=0x7f090036;
         public static final int listview1=0x7f090024;
         public static final int mainBtn=0x7f090001;
         public static final int main_Flag=0x7f090028;
         public static final int main_Home=0x7f090027;
         public static final int main_Self=0x7f090029;
         public static final int main_tab_group=0x7f090026;
+        public static final int moey=0x7f09002b;
         public static final int rege=0x7f090021;
         public static final int tablerow=0x7f09000a;
         public static final int tablerowa=0x7f09000b;
@@ -96,17 +97,18 @@ public final class R {
         public static final int textviewg=0x7f090008;
         public static final int textviewh=0x7f090013;
         public static final int time=0x7f090023;
-        public static final int title=0x7f090032;
-        public static final int txt1=0x7f09002a;
-        public static final int txtAddress=0x7f09002e;
+        public static final int title=0x7f090034;
+        public static final int txt1=0x7f09002c;
+        public static final int txtAddress=0x7f090030;
         public static final int txtDepict=0x7f09001d;
         public static final int txtInMoney=0x7f090015;
         public static final int txtInTime=0x7f090017;
         public static final int txtIntype=0x7f090019;
-        public static final int txtOutMoney=0x7f09002b;
-        public static final int txtOutTime=0x7f09002c;
-        public static final int txtOuttype=0x7f09002d;
+        public static final int txtOutMoney=0x7f09002d;
+        public static final int txtOutTime=0x7f09002e;
+        public static final int txtOuttype=0x7f09002f;
         public static final int txtResouce=0x7f09001b;
+        public static final int type=0x7f09002a;
         public static final int wage=0x7f090022;
     }
     public static final class layout {
@@ -117,18 +119,20 @@ public final class R {
         public static final int incostedit=0x7f030004;
         public static final int incostlist=0x7f030005;
         public static final int index_activity=0x7f030006;
-        public static final int layerlist_circle_mask=0x7f030007;
-        public static final int message_main=0x7f030008;
-        public static final int nimei=0x7f030009;
-        public static final int outcostedit=0x7f03000a;
-        public static final int outcostlist=0x7f03000b;
-        public static final int self_items=0x7f03000c;
-        public static final int self_main=0x7f03000d;
-        public static final int setbar_bg=0x7f03000e;
-        public static final int total_inlist=0x7f03000f;
-        public static final int total_outlist=0x7f030010;
-        public static final int totaldata=0x7f030011;
-        public static final int usersetinfo=0x7f030012;
+        public static final int inlist_item=0x7f030007;
+        public static final int layerlist_circle_mask=0x7f030008;
+        public static final int message_main=0x7f030009;
+        public static final int nimei=0x7f03000a;
+        public static final int outcostedit=0x7f03000b;
+        public static final int outcostlist=0x7f03000c;
+        public static final int outlist_item=0x7f03000d;
+        public static final int self_items=0x7f03000e;
+        public static final int self_main=0x7f03000f;
+        public static final int setbar_bg=0x7f030010;
+        public static final int total_inlist=0x7f030011;
+        public static final int total_outlist=0x7f030012;
+        public static final int totaldata=0x7f030013;
+        public static final int usersetinfo=0x7f030014;
     }
     public static final class menu {
         public static final int main=0x7f080000;
