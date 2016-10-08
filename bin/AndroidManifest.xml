@@ -16,17 +16,16 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
-           
-        </activity>
-        <!-- 注册 IndexActivity  -->
-        <activity 
-             android:name=".IndexActivity"
-            android:label="@string/app_name" >
-             <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <!-- 注册 IndexActivity  -->
+        <activity 
+             android:name=".IndexActivity"
+            android:label="@string/app_name" >            
         </activity>
         <!-- 注册 HomeActivity  -->
          <activity
