@@ -27,9 +27,9 @@ public class IndexActivity extends TabActivity {
         spec=tabHost.newTabSpec("主页").setIndicator("主页").setContent(intent);  
         tabHost.addTab(spec);  
           
-        intent=new Intent().setClass(this,MessageActivity.class);  
-        spec=tabHost.newTabSpec("资讯").setIndicator("资讯").setContent(intent);  
-        tabHost.addTab(spec);  
+        //intent=new Intent().setClass(this,MessageActivity.class);  
+        //spec=tabHost.newTabSpec("资讯").setIndicator("资讯").setContent(intent);  
+        //tabHost.addTab(spec);  
           
         intent=new Intent().setClass(this, FlagActivity.class);  
         spec=tabHost.newTabSpec("便签").setIndicator("便签").setContent(intent);  
@@ -51,9 +51,9 @@ public class IndexActivity extends TabActivity {
                 case R.id.main_Home://主页
                     tabHost.setCurrentTabByTag("主页");  
                     break;  
-                case R.id.main_Message://消息
-                    tabHost.setCurrentTabByTag("资讯");  
-                    break;  
+               // case R.id.main_Message://消息
+                    //tabHost.setCurrentTabByTag("资讯");  
+                    //break;  
                 case R.id.main_Flag://便签
                     tabHost.setCurrentTabByTag("便签");  
                     break;  

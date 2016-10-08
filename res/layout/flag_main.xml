@@ -2,14 +2,93 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:background="@drawable/sa"
+    >
     
-
+  <ImageView
+            android:id="@+id/imageMain"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bqgl" />
+ <TextView 
+        android:id="@+id/textviewa"
+        android:layout_width="fill_parent"
+    		android:layout_height="50dp"
+    		android:text="国庆出游"
+    		android:textSize="16dp"
+    		android:layout_marginTop="2dp"
+    		android:paddingTop="15dp"
+    		android:paddingLeft="8dp"
+    		android:background="@layout/setbar_bg"
+            />
+  <TextView 
+        android:id="@+id/textviewb"
+        android:layout_width="fill_parent"
+    		android:layout_height="50dp"
+    		android:text="国庆出游"
+    		android:textSize="16dp"
+    		android:layout_marginTop="2dp"
+    		android:paddingTop="15dp"
+    		android:paddingLeft="8dp"
+    		android:background="@layout/setbar_bg"
+            />
+   <TextView 
+        android:id="@+id/textviewc"
+        android:layout_width="fill_parent"
+    		android:layout_height="50dp"
+    		android:text="国庆出游"
+    		android:textSize="16dp"
+    		android:layout_marginTop="2dp"
+    		android:paddingTop="15dp"
+    		android:paddingLeft="8dp"
+    		android:background="@layout/setbar_bg"
+            />
     <TextView 
-        android:id="@+id/txt1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="便签页面"
-        android:textSize="18sp"
-        />
+        android:id="@+id/textviewd"
+        android:layout_width="fill_parent"
+    		android:layout_height="50dp"
+    		android:text="国庆出游"
+    		android:textSize="16dp"
+    		android:layout_marginTop="2dp"
+    		android:paddingTop="15dp"
+    		android:paddingLeft="8dp"
+    		android:background="@layout/setbar_bg"
+            />
+     <TextView 
+        android:id="@+id/textviewe"
+        android:layout_width="fill_parent"
+    		android:layout_height="50dp"
+    		android:text="国庆出游"
+    		android:textSize="16dp"
+    		android:layout_marginTop="2dp"
+    		android:paddingTop="15dp"
+    		android:paddingLeft="8dp"
+    		android:background="@layout/setbar_bg"
+            />
+      <TextView 
+        android:id="@+id/textviewf"
+        android:layout_width="fill_parent"
+    		android:layout_height="50dp"
+    		android:text="国庆出游"
+    		android:textSize="16dp"
+    		android:layout_marginTop="2dp"
+    		android:paddingTop="15dp"
+    		android:paddingLeft="8dp"
+      	android:background="@layout/setbar_bg"
+    		
+            />
+       <TextView 
+        android:id="@+id/textviewg"
+        android:layout_width="fill_parent"
+    		android:layout_height="50dp"
+    		android:text="国庆出游"
+    		android:textSize="16dp"
+    		android:layout_marginTop="2dp"
+    		android:paddingTop="15dp"
+    		android:paddingLeft="8dp"
+        android:background="@layout/setbar_bg"
+    		
+            />
 </LinearLayout>

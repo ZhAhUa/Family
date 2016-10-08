@@ -28,11 +28,11 @@ public class TotalData extends TabActivity {
 	        Intent intent;  
 	  
 	        intent=new Intent().setClass(this, Total_InList.class);  
-	        spec=tabHost.newTabSpec("主页").setIndicator("主页").setContent(intent);  
+	        spec=tabHost.newTabSpec("收入统计").setIndicator("收入统计").setContent(intent);  
 	        tabHost.addTab(spec);  
 	          
 	        intent=new Intent().setClass(this,Total_OutList.class);  
-	        spec=tabHost.newTabSpec("资讯").setIndicator("资讯").setContent(intent);  
+	        spec=tabHost.newTabSpec("支出统计").setIndicator("支出统计").setContent(intent);  
 	        tabHost.addTab(spec);  
 	        tabHost.setCurrentTab(1);  
 	          
