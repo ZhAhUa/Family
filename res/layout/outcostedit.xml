@@ -1,8 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0,3"
+    android:orientation="vertical"
+    >
     
+  <ImageView
+            android:id="@+id/imageMain"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="1dp"
+            />
+  <LinearLayout 
+        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_marginTop="2dp"
+    		android:orientation="horizontal"
+    		android:background="#00f"
+    >
+     <LinearLayout 
+        android:layout_width="wrap_content"
+    		android:layout_height="60dp"
+    		android:orientation="vertical"
+    		android:layout_weight="1"
+         >
 
+         <TextView
+        android:id="@+id/itextview"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:maxHeight="80dp"
+        android:paddingTop="35dp"
+        android:paddingLeft="30dp"
+        android:text="金额："/>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:minWidth="250dp"
+             android:layout_weight="3"
+             android:orientation="vertical" >
+
+             <EditText
+                 android:id="@+id/txtOutMoney"
+                 android:layout_width="220dp"
+                 android:minWidth="250dp"
+                 android:layout_height="60dp"
+                 android:maxHeight="60dp"
+                 android:textSize="15sp" 
+                 android:paddingTop="20dp"
+                 android:layout_marginLeft="20dp"
+                 />
+
+          
+         </LinearLayout>
+         </LinearLayout>
+           <LinearLayout 
+		        android:layout_width="match_parent"
+		    		android:layout_height="60dp"
+		    		android:layout_marginTop="2dp"
+		    		android:orientation="horizontal"
+    			>
+     	<LinearLayout 
+		        android:layout_width="wrap_content"
+		    		android:layout_height="60dp"
+		    		android:orientation="vertical"
+		    		android:layout_weight="1"
+         	>
+
+         <TextView
+        android:id="@+id/itextviewb"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:maxHeight="60dp"
+        android:paddingTop="35dp"
+        android:paddingLeft="30dp"
+        android:text="时间："/>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:maxHeight="60dp"
+             android:minWidth="250dp"
+             android:layout_weight="3"
+             android:orientation="vertical" >
+
+             <EditText
+                 android:id="@+id/txtOutTime"
+                 android:layout_width="220dp"
+                 android:minWidth="250dp"
+                 android:layout_height="60dp"
+                 android:maxHeight="60dp"
+                 android:textSize="15sp" 
+                 android:paddingTop="20dp"
+                 android:layout_marginLeft="20dp"
+                 />
+
+          
+         </LinearLayout>
+         </LinearLayout>
+           <LinearLayout 
+        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_marginTop="2dp"
+    		android:orientation="horizontal"
+    		android:background="#00f"
+    >
+     <LinearLayout 
+        android:layout_width="wrap_content"
+    		android:layout_height="60dp"
+    		android:orientation="vertical"
+    		android:layout_weight="1"
+         >
+
+         <TextView
+        android:id="@+id/itextviewc"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:maxHeight="60dp"
+        android:paddingTop="35dp"
+        android:paddingLeft="30dp"
+        android:text="类别："/>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:minWidth="250dp"
+             android:layout_weight="3"
+             android:orientation="vertical" >
+
+             <Spinner
+                 android:id="@+id/txtOuttype"
+                 android:layout_width="220dp"
+                 android:minWidth="250dp"
+                 android:layout_height="60dp"
+                 android:textSize="15sp" 
+                 android:paddingTop="10dp"
+                 android:layout_marginLeft="20dp"
+                 android:entries="@array/OutType"
+                 />
+
+          
+         </LinearLayout>
+         </LinearLayout>
+           <LinearLayout 
+        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_marginTop="2dp"
+    		android:orientation="horizontal"
+    >
+     <LinearLayout 
+        android:layout_width="wrap_content"
+    		android:layout_height="60dp"
+    		android:orientation="vertical"
+    		android:layout_weight="1"
+         >
+
+         <TextView
+        android:id="@+id/itextviewd"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:maxHeight="60dp"
+        android:paddingTop="35dp"
+        android:paddingLeft="30dp"
+        android:text="支付地点："/>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:minWidth="250dp"
+             android:layout_weight="3"
+             android:orientation="vertical" >
+
+             <EditText
+                 android:id="@+id/txtAddress"
+                 android:layout_width="220dp"
+                 android:minWidth="250dp"
+                 android:layout_height="60dp"
+                 android:maxHeight="60dp"
+                 android:textSize="15sp" 
+                 android:paddingTop="20dp"
+                 android:layout_marginLeft="20dp"
+                 />
+
+          
+         </LinearLayout>
+         </LinearLayout>
+           <LinearLayout 
+        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_marginTop="2dp"
+    		android:orientation="horizontal"
+    >
+     <LinearLayout 
+        android:layout_width="wrap_content"
+    		android:layout_height="60dp"
+    		android:orientation="vertical"
+    		android:layout_weight="1"
+         >
+
+         <TextView
+        android:id="@+id/itextviewf"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:maxHeight="60dp"
+        android:paddingTop="35dp"
+        android:paddingLeft="30dp"
+        android:text="备注："/>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="60dp"
+             android:minWidth="250dp"
+             android:layout_weight="3"
+             android:orientation="vertical" >
+
+             <EditText
+                 android:id="@+id/txtDepict"
+                 android:layout_width="220dp"
+                 android:minWidth="250dp"
+                 android:layout_height="60dp"
+                 android:maxHeight="60dp"
+                 android:textSize="15sp" 
+                 android:paddingTop="20dp"
+                 android:layout_marginLeft="20dp"
+                 />
+
+          
+         </LinearLayout>
+         </LinearLayout>
+         
+           
+          <LinearLayout 
+        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_marginTop="12dp"
+    		android:orientation="horizontal"
+    >
+     <LinearLayout 
+        android:layout_width="wrap_content"
+    		android:layout_height="50dp"
+    		android:orientation="vertical"
+    		android:layout_weight="3"
+    		android:gravity="right"
+         >
+
+         <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="保存"
+        android:textSize="15sp"
+        android:background="#fff"
+        android:gravity="right"/>
+
+       
+          
+         </LinearLayout>
+         <LinearLayout 
+        android:layout_width="wrap_content"
+    		android:layout_height="50dp"
+    		android:orientation="vertical"
+    		android:layout_weight="1"
+    		android:gravity="right"
+         >
+
+         <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:gravity="left"
+        android:textSize="15sp"
+         android:background="#fff"
+        android:layout_marginRight="35dp"
+        />
+         
+         </LinearLayout>
+         </LinearLayout>
+         
 </LinearLayout>
