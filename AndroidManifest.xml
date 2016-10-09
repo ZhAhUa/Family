@@ -25,12 +25,12 @@
         <!-- 注册 IndexActivity  -->
         <activity 
              android:name=".IndexActivity"
-            android:label="@string/app_name" >            
+            android:label="主页" >            
         </activity>
         <!-- 注册 HomeActivity  -->
          <activity
             android:name=".HomeActivity"
-            android:label="@string/app_name" >
+            android:label="首页" >
         </activity>
         <!-- 注册 MessageActivity  -->
          <activity
@@ -40,62 +40,62 @@
            <!-- 注册 FlagActivity  -->
          <activity
             android:name=".FlagActivity"
-            android:label="@string/app_name" >
+            android:label="便签" >
         </activity>
            <!-- 注册 SelfActivity  -->
          <activity
             android:name=".SelfActivity"
-            android:label="@string/app_name" >
+            android:label="我的" >
         </activity>
            <!-- 注册 TotalData  -->
          <activity
-            android:name=".TotalData"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.TotalData"
+            android:label="数据统计" >
         </activity>
           <!-- 注册 Total_InList  -->
          <activity
-            android:name=".Total_InList"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.Total_InList"
+            android:label="收入统计" >
         </activity>
           <!-- 注册 Total_OutList  -->
          <activity
-            android:name=".Total_OutList"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.Total_OutList"
+            android:label="支出统计" >
         </activity>
           <!-- 注册 OutCostEdit  -->
          <activity
-            android:name=".OutCostEdit"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.OutCostEdit"
+            android:label="新增支出" >
         </activity>
           <!-- 注册 OutCostList  -->
          <activity
-            android:name=".OutCostList"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.OutCostList"
+            android:label="我的支出" >
         </activity>
           <!-- 注册 InCostEdit  -->
          <activity
-            android:name=".InCostEdit"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.InCostEdit"
+            android:label="新增收入" >
         </activity>
          <!-- 注册 InCostList  -->
          <activity
-            android:name=".InCostList"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.InCostList"
+            android:label="我的收入" >
         </activity>
          <!-- 注册 FlagEdit  -->
          <activity
-            android:name=".FlagEdit"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.FlagEdit"
+            android:label="新增便签" >
         </activity>
          <!-- 注册 FlagList  -->
          <activity
             android:name=".FlagList"
             android:label="@string/app_name" >
         </activity>
-        <!-- 注册 FlagList  -->
+        <!-- 注册 UserSetInfo  -->
          <activity
-            android:name=".UserSetInfo"
-            android:label="@string/app_name" >
+            android:name="com.finance.show.UserSetInfo"
+            android:label="用户设置" >
         </activity>
     </application>
 

@@ -24,12 +24,13 @@
         android:layout_gravity="center_horizontal"
         android:id="@+id/title"
         />
-    <ImageButton 
+<!-- <ImageButton 
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_gravity="right"
         android:paddingRight="15dp"
-        android:id="@+id/btn"
-        />
+        android:id="@+id/btnImg"
+        android:onClick="OnitemClick"
+        />  -->
 
 </LinearLayout>
