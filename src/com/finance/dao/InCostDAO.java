@@ -28,11 +28,11 @@ public class InCostDAO {
 	public void ADD(M_InCost mInCost)
 	{
 		//初始化 SQLiteDatebase对象
-		Sdb = helper.getWritableDatabase();
+		Sdb = helper.getReadableDatabase();
 		String Sql = "INSERT INTO InCostInfo(Money,InTime,InType,Source,Depict) VALUES(?,?,?,?,?)";
 		Object values[] = new Object[]{mInCost.getMoney(),mInCost.getInTime(),mInCost.getInType(),mInCost.getSource(),mInCost.getDepict()};
 		Sdb.execSQL(Sql, values);
-		//Sdb.close();
+		Sdb.close();
 	}
 	
 	
@@ -46,7 +46,7 @@ public class InCostDAO {
 		String Sql = "UPDATE InCostInfo SET Money = ？，InTime = ? ,InType = ? ,Source = ? ,Depict = ? where InID = ?";
 		Object values[] = new Object[]{mInCost.getMoney(),mInCost.getInTime(),mInCost.getInType(),mInCost.getSource(),mInCost.getDepict(),mInCost.getInID()};
 		Sdb.execSQL(Sql, values);
-		
+		Sdb.close();
 	}
 	
 	/**
@@ -65,6 +65,7 @@ public class InCostDAO {
 			sb.deleteCharAt(sb.length() -1);
 			Sdb  = helper.getWritableDatabase();		
 			Sdb.execSQL("Delete From OutCostInfo  Where InID in("+ sb +" )",InID);
+			Sdb.close();
 		}
 	}
 	
@@ -84,5 +85,6 @@ public class InCostDAO {
 					"InType")), cursor.getString(cursor.getColumnIndex("Source")), cursor.getString(cursor.getColumnIndex("Depict"))));
 		}
 		return m_incost;
+		//Sdb.close();
 	}
 }

@@ -2,13 +2,34 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
-
-        <TextView 
+    android:orientation="vertical"
+     android:background="@drawable/sa">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        >
+        <ListView
+    android:id="@+id/listview1"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    />
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+         <TextView 
         android:id="@+id/txt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="这是收入信息的统计界面"
+        android:text="总计："
+        android:background="@layout/nimei"
+        android:paddingLeft="15dp"
+        android:textSize="20dp"
         />
+     </LinearLayout>
+    
 </LinearLayout>
