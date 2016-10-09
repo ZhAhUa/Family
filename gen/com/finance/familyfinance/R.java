@@ -55,16 +55,18 @@ public final class R {
     }
     public static final class id {
         public static final int ID=0x7f090021;
-        public static final int Total_In=0x7f090037;
-        public static final int Total_Out=0x7f090038;
-        public static final int action_settings=0x7f090039;
-        public static final int btn=0x7f09001f;
+        public static final int Total_In=0x7f090039;
+        public static final int Total_Out=0x7f09003a;
+        public static final int action_settings=0x7f09003b;
+        public static final int btn=0x7f090032;
         public static final int btnAddflag=0x7f090009;
-        public static final int btna=0x7f090020;
+        public static final int btnInCancel=0x7f090020;
+        public static final int btnInSave=0x7f09001f;
+        public static final int btna=0x7f090033;
         public static final int button=0x7f090026;
         public static final int content=0x7f090000;
-        public static final int image=0x7f090032;
-        public static final int imageBtn=0x7f090034;
+        public static final int image=0x7f090034;
+        public static final int imageBtn=0x7f090036;
         public static final int imageMain=0x7f090001;
         public static final int imagegroup=0x7f09000e;
         public static final int imagegroupa=0x7f090012;
@@ -73,8 +75,8 @@ public final class R {
         public static final int itextviewc=0x7f090019;
         public static final int itextviewd=0x7f09001b;
         public static final int itextviewf=0x7f09001d;
-        public static final int iv_circle_header=0x7f090035;
-        public static final int listview=0x7f090036;
+        public static final int iv_circle_header=0x7f090037;
+        public static final int listview=0x7f090038;
         public static final int listview1=0x7f090025;
         public static final int main_Flag=0x7f090029;
         public static final int main_Home=0x7f090028;
@@ -99,7 +101,7 @@ public final class R {
         public static final int textviewg=0x7f090006;
         public static final int textviewh=0x7f090014;
         public static final int time=0x7f090024;
-        public static final int title=0x7f090033;
+        public static final int title=0x7f090035;
         public static final int txt1=0x7f09002d;
         public static final int txtAddress=0x7f090031;
         public static final int txtDepict=0x7f09001e;

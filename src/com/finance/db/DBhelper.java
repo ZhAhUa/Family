@@ -32,7 +32,7 @@ public class DBhelper extends SQLiteOpenHelper {
 		SQLiteDatabase DB = SQLiteDatabase.openOrCreateDatabase("Finance", null);
 		String Sql = "create table OutCostInfo(OutID integer primary key autoincrement,Money decimal,OutTime varchar(20),OutType varchar(10),Aaddress varchar(100),Depict varchar(200)) go"
 				+ "create table InCostInfo(InID integer primary key autoincrement,Money decimal,InTime varchar(20),InType varchar(10),Source varchar(50),Depict varchar(200)) go "
-				+" create table FlagInfo(FlagID integer primark key autoincrement,Content varchar(200))";
+				+" create table FlagInfo(FlagID integer primark key autoincrement,Content varchar(200)) + create table UsersInfo(UserName varchar(20) primark key ,UserPwd varchar(20))";
 		DB.execSQL(Sql);
 	}
 

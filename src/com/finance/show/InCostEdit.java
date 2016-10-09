@@ -5,13 +5,20 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.DatePickerDialog.OnDateSetListener;
+import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
+
+import com.finance.dao.InCostDAO;
 import com.finance.familyfinance.R;
+import com.finance.model.M_InCost;
 
 public class InCostEdit extends Activity {
 	
@@ -20,6 +27,8 @@ public class InCostEdit extends Activity {
 	private Spinner txtType;
 	private EditText txtResouce;
 	private EditText txtDepict;
+	private Button BtnSave;
+	private Button BtnCancel;
 	private int mYear;
 	private int mMonth;
 	private int mDay;
@@ -36,6 +45,50 @@ public class InCostEdit extends Activity {
 		txtResouce = (EditText)findViewById(R.id.txtResouce);
 		txtDepict = (EditText)findViewById(R.id.txtDepict);
 		txtType = (Spinner)findViewById(R.id.txtIntype);
+		BtnSave = (Button)findViewById(R.id.btnInSave);
+		BtnCancel = (Button)findViewById(R.id.btnInCancel);
+		
+		//保存按钮
+		BtnSave.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				M_InCost mIncost = new M_InCost();
+				InCostDAO Indao = new InCostDAO(InCostEdit.this);
+				if(!txtInMoney.getText().toString().isEmpty())
+				{
+					mIncost.setMoney(Double.parseDouble(txtInMoney.getText().toString()));
+					mIncost.setInTime(txtTime.getText().toString());
+					mIncost.setSource(txtResouce.getText().toString());
+					mIncost.setInType(txtType.getSelectedItem().toString());
+					mIncost.setDepict(txtDepict.getText().toString());
+					Indao.ADD(mIncost);
+					//弹出提示信息
+					Toast.makeText(InCostEdit.this, "新增收入信息成功！", Toast.LENGTH_SHORT).show();
+				}
+				else
+				{
+					//弹出提示信息
+					Toast.makeText(InCostEdit.this, "请输入收金额！", Toast.LENGTH_SHORT).show();
+				}	
+			}
+		});
+		
+		//取消按钮
+		BtnCancel.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				txtInMoney.setText("");
+				txtInMoney.setHint("0.00");
+				txtResouce.setText("");
+				txtDepict.setText("");
+				Intent intent = new Intent(InCostEdit.this,com.finance.familyfinance.IndexActivity.class);
+				startActivity(intent);
+			}
+		});
 		
 		txtTime.setOnClickListener(new OnClickListener() {
 			
