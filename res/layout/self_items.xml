@@ -4,33 +4,55 @@
     android:layout_height="match_parent"
     android:orientation="horizontal" >
     
-    <ImageView 
+    <LinearLayout 
+        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+         android:layout_weight="1"
+         
+        >
+        <ImageView 
         android:id="@+id/image"
-        android:paddingRight="10dp"
-        android:paddingTop="20dp"
-        android:maxWidth="72dp"
-        android:maxHeight="72dp"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
         android:adjustViewBounds="true"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="15dp"
-        
-        />
-    <TextView 
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:padding="10dp"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/title"
-        />
-<!-- <ImageButton 
-        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="1dp"
+       
+        /></LinearLayout>
+    <LinearLayout 
+        android:layout_height="65dp"
         android:layout_width="wrap_content"
-        android:layout_gravity="right"
-        android:paddingRight="15dp"
-        android:id="@+id/btnImg"
-        android:onClick="OnitemClick"
-        />  -->
-
+         android:layout_weight="2"
+         >
+        <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="12dp"
+        android:gravity="left"
+        android:id="@+id/title"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+<LinearLayout 
+        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+         android:layout_weight="1"
+         
+        >
+        <ImageView 
+        android:id="@+id/img"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:adjustViewBounds="true"
+        android:layout_height="18dp"
+        android:layout_width="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="1dp"
+        android:background="@drawable/ssd"
+       
+        /></LinearLayout>
 </LinearLayout>

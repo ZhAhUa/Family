@@ -54,6 +54,7 @@
                  android:textSize="15dp" 
                  android:paddingTop="20dp"
                  android:layout_marginLeft="20dp"
+                 android:numeric="integer"  
                  />
 
           

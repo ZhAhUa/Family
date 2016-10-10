@@ -11,29 +11,32 @@ public class DBhelper extends SQLiteOpenHelper {
 	/**
 	 * 系统默认构造方法
 	 */
-	public DBhelper(Context context, String name, CursorFactory factory,
-			int version) {
-		super(context, name, factory, version);
-		// TODO Auto-generated constructor stub
-	}
+//	public DBhelper(Context context, String name, CursorFactory factory,
+//			int version) {
+//		super(context, name, factory, version);
+//		// TODO Auto-generated constructor stub
+//	}
 	
 	/**
 	 *  重写构造方法 
 	 * @param context
 	 */
 	public DBhelper(Context context) {
-		super(context, "Finance", null, 1);
+		super(context,"Finance.db", null, 1);
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void onCreate(SQLiteDatabase arg0) {
 		// TODO Auto-generated method stub
-		SQLiteDatabase DB = SQLiteDatabase.openOrCreateDatabase("Finance", null);
-		String Sql = "create table OutCostInfo(OutID integer primary key autoincrement,Money decimal,OutTime varchar(20),OutType varchar(10),Aaddress varchar(100),Depict varchar(200)) go"
-				+ "create table InCostInfo(InID integer primary key autoincrement,Money decimal,InTime varchar(20),InType varchar(10),Source varchar(50),Depict varchar(200)) go "
-				+" create table FlagInfo(FlagID integer primark key autoincrement,Content varchar(200)) go + create table UsersInfo(UserName varchar(20) primark key ,UserPwd varchar(20)) go";
-		DB.execSQL(Sql);
+		SQLiteDatabase DB = SQLiteDatabase.openOrCreateDatabase("Finance.db", null);
+//		String Sql = "create table OutCostInfo(OutID integer primary key autoincrement,Money decimal,OutTime varchar(20),OutType varchar(10),Aaddress varchar(100),Depict varchar(200)) go"
+//				+ "create table InCostInfo(InID integer primary key autoincrement,Money decimal,InTime varchar(20),InType varchar(10),Source varchar(50),Depict varchar(200)) go "
+//				+" create table FlagInfo(FlagID integer primark key autoincrement,Content varchar(200)) go + create table UsersInfo(UserName varchar(20) primark key ,UserPwd varchar(20)) go";
+		DB.execSQL("create table OutCostInfo(OutID integer primary key autoincrement,Money decimal,OutTime varchar(20),OutType varchar(10),Aaddress varchar(100),Depict varchar(200))");
+		DB.execSQL("create table InCostInfo(InID integer primary key autoincrement,Money decimal,InTime varchar(20),InType varchar(10),Source varchar(50),Depict varchar(200)) ");
+		DB.execSQL("create table FlagInfo(FlagID integer primark key autoincrement,Content varchar(200))");
+		DB.execSQL("create table UsersInfo(UserName varchar(20) primark key ,UserPwd varchar(20))");
 	}
 
 	@Override

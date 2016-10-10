@@ -28,7 +28,7 @@ public class InCostDAO {
 	public void ADD(M_InCost mInCost)
 	{
 		//初始化 SQLiteDatebase对象
-		Sdb = helper.getReadableDatabase();
+		Sdb = helper.getWritableDatabase();
 		String Sql = "INSERT INTO InCostInfo(Money,InTime,InType,Source,Depict) VALUES(?,?,?,?,?)";
 		Object values[] = new Object[]{mInCost.getMoney(),mInCost.getInTime(),mInCost.getInType(),mInCost.getSource(),mInCost.getDepict()};
 		Sdb.execSQL(Sql, values);
