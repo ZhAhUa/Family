@@ -63,7 +63,7 @@ public class InCostEdit extends Activity {
 					mIncost.setSource(txtResouce.getText().toString());
 					mIncost.setInType(txtType.getSelectedItem().toString());
 					mIncost.setDepict(txtDepict.getText().toString());
-					Toast.makeText(InCostEdit.this,mIncost.getMoney()+""+mIncost.getInTime() , Toast.LENGTH_SHORT).show();
+					//Toast.makeText(InCostEdit.this,mIncost.getMoney()+""+mIncost.getInTime() , Toast.LENGTH_SHORT).show();
 					Indao.ADD(mIncost);
 					//弹出提示信息
 					Toast.makeText(InCostEdit.this, "新增收入信息成功！", Toast.LENGTH_SHORT).show();

@@ -7,16 +7,16 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.finance.db.DBhelper;
+import com.finance.db.DBOpenHelper;
 import com.finance.model.M_Flag;;
 
 public class FlagDAO {
-	private DBhelper helper;
+	private DBOpenHelper helper;
 	private SQLiteDatabase Sdb;
 	
 	public FlagDAO(Context context)
 	{
-		helper = new DBhelper(context);
+		helper = new DBOpenHelper(context);
 	}
 	
 	

@@ -7,12 +7,12 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.finance.db.DBhelper;
+import com.finance.db.DBOpenHelper;
 import com.finance.model.M_OutCost;
 
 public class OutCostDAO {
 
-	private DBhelper helper;
+	private DBOpenHelper helper;
 	private SQLiteDatabase Sdb;
 	//private M_OutCost mOutCost;
 	
@@ -22,7 +22,7 @@ public class OutCostDAO {
 	 */
 	public OutCostDAO(Context context)
 	{
-		helper = new DBhelper(context);
+		helper = new DBOpenHelper(context);
 	}
 	
 	/**
