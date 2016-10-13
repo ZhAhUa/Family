@@ -98,6 +98,22 @@
             android:name="com.finance.show.UserSetInfo"
             android:label="用户设置" >
         </activity>
+        <activity
+            android:name=".selfnew"
+            android:label="@string/zhmm" >
+            <intent-filter>
+                <action android:name="zhmm" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".self"
+            android:label="@string/zhmm" >
+            <intent-filter>
+                <action android:name="zhmm" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

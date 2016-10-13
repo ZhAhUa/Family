@@ -14,6 +14,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ImageButton;
@@ -108,6 +109,18 @@ public class SelfActivity extends Activity {
 				   
 			}
 		});
-	}
+        ImageButton imgBtn =(ImageButton)findViewById(R.id.imageBtn);
+		imgBtn.setOnClickListener(new OnClickListener() {
+      
+			@Override
+			public void onClick(View arg0) {
+				// 跳转到设置页面
+				Intent intent = new Intent(SelfActivity.this,com.finance.familyfinance.selfnew.class);
+				startActivity(intent);
+			}
+			
+       });
+	
 
-}
+	
+}}

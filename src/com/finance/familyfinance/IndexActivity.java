@@ -33,7 +33,8 @@ public class IndexActivity extends TabActivity {
           
         intent=new Intent().setClass(this, FlagActivity.class);  
         spec=tabHost.newTabSpec("便签").setIndicator("便签").setContent(intent);  
-        tabHost.addTab(spec);  
+        tabHost.addTab(spec);
+        
           
        
         intent=new Intent().setClass(this, SelfActivity.class);  

@@ -26,43 +26,54 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int background=0x7f020000;
-        public static final int bianqbtn=0x7f020001;
-        public static final int bqgl=0x7f020002;
-        public static final int c1=0x7f020003;
-        public static final int checkbox=0x7f020004;
-        public static final int groupa=0x7f020005;
-        public static final int groupb=0x7f020006;
-        public static final int groupc=0x7f020007;
-        public static final int ic_flag=0x7f020008;
-        public static final int ic_globe=0x7f020009;
-        public static final int ic_house=0x7f02000a;
-        public static final int ic_launcher=0x7f02000b;
-        public static final int ic_search=0x7f02000c;
-        public static final int lctb=0x7f02000d;
-        public static final int lvse=0x7f02000e;
-        public static final int main=0x7f02000f;
-        public static final int menu2=0x7f020010;
-        public static final int mike=0x7f020011;
-        public static final int renxinga=0x7f020012;
-        public static final int return5=0x7f020013;
-        public static final int s=0x7f020014;
-        public static final int sa=0x7f020015;
-        public static final int sjgl=0x7f020016;
-        public static final int ssd=0x7f020017;
-        public static final int vv1=0x7f020018;
-        public static final int vv2=0x7f020019;
-        public static final int wdsr=0x7f02001a;
-        public static final int wdzc=0x7f02001b;
-        public static final int xzbq=0x7f02001c;
-        public static final int xzsr=0x7f02001d;
-        public static final int xzzc=0x7f02001e;
+        public static final int aihao=0x7f020000;
+        public static final int background=0x7f020001;
+        public static final int beijing=0x7f020002;
+        public static final int beijingshezhi=0x7f020003;
+        public static final int bianqbtn=0x7f020004;
+        public static final int bqgl=0x7f020005;
+        public static final int checkbox=0x7f020006;
+        public static final int groupa=0x7f020007;
+        public static final int groupb=0x7f020008;
+        public static final int groupc=0x7f020009;
+        public static final int ic_flag=0x7f02000a;
+        public static final int ic_globe=0x7f02000b;
+        public static final int ic_house=0x7f02000c;
+        public static final int ic_launcher=0x7f02000d;
+        public static final int ic_search=0x7f02000e;
+        public static final int jiantou=0x7f02000f;
+        public static final int lctb=0x7f020010;
+        public static final int liulanjilv=0x7f020011;
+        public static final int lvse=0x7f020012;
+        public static final int main=0x7f020013;
+        public static final int menu2=0x7f020014;
+        public static final int mike=0x7f020015;
+        public static final int renxinga=0x7f020016;
+        public static final int return5=0x7f020017;
+        public static final int returnbutton=0x7f020018;
+        public static final int s=0x7f020019;
+        public static final int sa=0x7f02001a;
+        public static final int shezhinew=0x7f02001b;
+        public static final int sjgl=0x7f02001c;
+        public static final int ssd=0x7f02001d;
+        public static final int timg=0x7f02001e;
+        public static final int vv1=0x7f02001f;
+        public static final int vv2=0x7f020020;
+        public static final int wdsr=0x7f020021;
+        public static final int wdzc=0x7f020022;
+        public static final int xiala=0x7f020023;
+        public static final int xzbq=0x7f020024;
+        public static final int xzsr=0x7f020025;
+        public static final int xzzc=0x7f020026;
     }
     public static final class id {
         public static final int ID=0x7f090024;
+        public static final int MorePageTableLayout_Client=0x7f090045;
+        public static final int MorePageTableLayout_Favorite=0x7f09003f;
+        public static final int MorePageTableLayout_Follow=0x7f090041;
         public static final int Total_In=0x7f09003a;
         public static final int Total_Out=0x7f09003b;
-        public static final int action_settings=0x7f09003c;
+        public static final int action_settings=0x7f090048;
         public static final int btn=0x7f09000b;
         public static final int btnAddflag=0x7f090009;
         public static final int btnInCancel=0x7f090023;
@@ -70,6 +81,7 @@ public final class R {
         public static final int btna=0x7f09000c;
         public static final int content=0x7f090000;
         public static final int editText=0x7f09000a;
+        public static final int empty_cart_view=0x7f09003c;
         public static final int image=0x7f090034;
         public static final int imageBtn=0x7f090037;
         public static final int imageMain=0x7f090001;
@@ -89,7 +101,13 @@ public final class R {
         public static final int main_Self=0x7f09002c;
         public static final int main_tab_group=0x7f090029;
         public static final int moey=0x7f09002e;
+        public static final int more_page_row0=0x7f090040;
+        public static final int more_page_row1=0x7f090042;
+        public static final int more_page_row2=0x7f090043;
+        public static final int more_page_row3=0x7f090044;
+        public static final int more_page_row4=0x7f090046;
         public static final int rege=0x7f090025;
+        public static final int returnj=0x7f090047;
         public static final int tablerow=0x7f09000e;
         public static final int tablerowa=0x7f09000f;
         public static final int tablerowb=0x7f090010;
@@ -108,6 +126,8 @@ public final class R {
         public static final int textviewh=0x7f090017;
         public static final int time=0x7f090027;
         public static final int title=0x7f090035;
+        public static final int titleText=0x7f09003e;
+        public static final int top_relative=0x7f09003d;
         public static final int txt1=0x7f09002f;
         public static final int txtAddress=0x7f090033;
         public static final int txtDepict=0x7f090021;
@@ -152,6 +172,7 @@ public final class R {
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060001;
         public static final int main=0x7f060003;
+        public static final int zhmm=0x7f060004;
     }
     public static final class style {
         /** 
